@@ -31,35 +31,35 @@ public class Application {
     userList.stream().forEach(System.out::println);
     //2.En yaşlı birey kaç yaşındadır?
 //    userList.stream()
-//        .map(user->user.getAge())// Kullanıcıların yaşlarını almak
-//        .sorted(Comparator.reverseOrder())// Büyükten küçüğe sıralamak
+//        .map(user->user.getAge())
+//        .sorted(Comparator.reverseOrder())
 //        .findFirst()// İlk değeri almak
-//        .ifPresent(System.out::println); //ilk değeri yazdırmak
+//        .ifPresent(System.out::println);
 //    userList.stream()
-//        .max(Comparator.comparingInt(User::getAge))// Bireyin yaşının en büyük değerini almak
+//        .max(Comparator.comparingInt(User::getAge))
 //        .ifPresent(System.out::println);
 
     //3. Ankara'da yaşayan kaç kişi vardır?
 //    long count= userList.stream()
-//        .filter(user -> user.getAddress().contains("Ankara"))// Ankara'ya yaşayanların filtresini yapıyoruz
+//        .filter(user -> user.getAddress().contains("Ankara"))
 //        .count();// Sayıyı buluyoruz
 //    System.out.println(count);
     //4. İstanbul'da yaşayanların yaş ortalaması nedir?
 //    double averageAge= userList.stream()
-//        .filter(user -> user.getAddress().contains("İstanbul"))// İstanbul'da yaşayanların filtresini yapıyoruz
+//        .filter(user -> user.getAddress().contains("İstanbul"))
 //        .mapToInt(User::getAge) // Kullanıcıların yaşlarını almak
 //        .average() // Ortalamayı buluyoruz
 //        .orElse(0); // Eğer ortalamayı bulamadıysa 0 döndür
 //    System.out.println(averageAge);
     //7. İsmi B ile başlayan kaç kişi vardır?
 //    long count= userList.stream()
-//        .filter(user -> user.getName().startsWith("B"))// İsmi B ile başlayanların filtresini yapıyoruz
+//        .filter(user -> user.getName().startsWith("B"))
 //        .count();// Sayıyı buluyoruz
 //    System.out.println(count);
     //6. İsmi B ile başlayanları listeden kaldırınız.
 //    List<User> newList =new ArrayList<>();
 //    newList=userList.stream()
-//        .filter(user ->!user.getName().startsWith("B"))// İsmi B ile başlayanları filtresini yapıyoruz
+//        .filter(user ->!user.getName().startsWith("B"))
 //       .collect(Collectors.toList());// Yeni bir listeye kopyalıyoruz
 //
 //    newList.stream().forEach(user ->{
