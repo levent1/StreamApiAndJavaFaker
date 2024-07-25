@@ -51,7 +51,7 @@ public class Application {
 //        .average() // Ortalamayı buluyoruz
 //        .orElse(0); // Eğer ortalamayı bulamadıysa 0 döndür
 //    System.out.println(averageAge);
-    //7. İsmi B ile başlayan kaç kişi vardır?
+    //5. İsmi B ile başlayan kaç kişi vardır?
 //    long count= userList.stream()
 //        .filter(user -> user.getName().startsWith("B"))
 //        .count();// Sayıyı buluyoruz
